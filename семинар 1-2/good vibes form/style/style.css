@@ -1,0 +1,23 @@
+#rectangle{
+    background: antiquewhite;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 95%;
+    text-align: center;
+    padding: 0px;
+    border-radius: 10px;
+}
+td{
+    width: 50%;
+}
+.inputs{
+    size: 40;
+    margin-left: 10px;
+}
+h4{
+    margin-top: 20px; 
+    margin-right: 15px;
+}
+textarea{
+    margin-top: 20px;
+}

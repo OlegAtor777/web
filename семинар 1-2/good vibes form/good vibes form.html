@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Good Vibes Form</title>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body style="background-color: aquamarine;">
+        <h1 style="text-align: center;">Good Vibes Form</h1>
+        <div id="rectangle">
+            <h3 style="padding-top: 20px;">Tell us something positive that happened to you today</h3>
+            <table style="margin: 0 auto 0 auto;">
+                <tr>
+                    <td style="text-align: right;"><h4>Name</h4></td>     <td><input type="text" size="35" class="inputs" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><h4>Email</h4></td>    <td><input type="email" size="35" class="inputs"placeholder="Enter your email"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><h4>On a scale of 1-10, how good was it?</h4></td>     <td><input type="number" size="35" class="inputs" placeholder="1-10" min="1" max="10"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><h4>Where did it happen?</h4></td>     <td><input type="text" size="35" class="inputs" list="Where" placeholder="Choose one">
+                    <datalist id="Where">
+                        <option value="At home"></option>
+                        <option value="Down the street"></option>
+                        <option value="At school"></option>
+                    </datalist></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><h4>At what time of day did it happen?</h4></td>     <td style="padding-top: 30px;"><input class="inputs" type="radio" name="time" value="rad1"> Morning<br>
+                                                                                                            <input class="inputs" type="radio" name="time" value="rad2"> Afternoon<br>
+                                                                                                            <input class="inputs" type="radio" name="time" value="rad3"> Evening</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><h4>What emotion did you experience?</h4></td>   <td style="padding-top: 30px;"><input class="inputs" type="checkbox" name="emotion" value="check1"> Happy<br>
+                                                                                                        <input class="inputs" type="checkbox" name="emotion" value="check2"> Loved<br>
+                                                                                                        <input class="inputs" type="checkbox" name="emotion" value="check3"> Blessed<br>
+                                                                                                        <input class="inputs" type="checkbox" name="emotion" value="check3"> Satisfied<br></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><h4>Please describe your positive experience.</h4></td> <td> <textarea cols="35" rows="5"></textarea> </td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit" style="align-items: center; margin-top: 30px;">
+        </div>
+        
+    </body>
+</html>
